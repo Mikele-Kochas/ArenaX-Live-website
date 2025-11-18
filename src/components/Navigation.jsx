@@ -5,7 +5,7 @@ function Navigation({ currentSection, scrollToSection }) {
     <nav className="navigation">
       <div className="nav-container">
         <div className="logo" onClick={() => scrollToSection('hero')}>
-          <img src="/logo.png" alt="ArenaX Live Logo" className="logo-image" />
+          <img src={`${import.meta.env.BASE_URL}logo.png`} alt="ArenaX Live Logo" className="logo-image" />
         </div>
         <ul className="nav-links">
           <li>
