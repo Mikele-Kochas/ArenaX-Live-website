@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Purple Theme - Main */
+  --purple-primary: #8a2be2;
+  --purple-dark: #5a1a9e;
+  --purple-light: #b366ff;
+  --purple-glow: rgba(138, 43, 226, 0.5);
+  --purple-bg: #1a0a2e;
+  --purple-bg-light: #2d1b4e;
+  
+  /* Additional Colors */
+  --cyan: #00d4ff;
+  --cyan-dark: #0099cc;
+  --cyan-glow: rgba(0, 212, 255, 0.5);
+  
+  --pink: #ff00ff;
+  --pink-light: #ff6bff;
+  --pink-glow: rgba(255, 0, 255, 0.5);
+  
+  --gold: #ffd700;
+  --gold-light: #ffed4e;
+  --gold-glow: rgba(255, 215, 0, 0.5);
+  
+  --green: #00ff88;
+  --green-dark: #00cc66;
+  --green-glow: rgba(0, 255, 136, 0.5);
+  
+  --orange: #ff6b35;
+  --orange-light: #ff8c42;
+  --orange-glow: rgba(255, 107, 53, 0.5);
+  
+  --red: #ff3366;
+  --red-dark: #ff0040;
+  --red-glow: rgba(255, 51, 102, 0.5);
+  
+  --turquoise: #00ffcc;
+  --turquoise-dark: #00ccaa;
+  --turquoise-glow: rgba(0, 255, 204, 0.5);
+  
+  --blue: #4a90e2;
+  --blue-light: #6ba3ff;
+  --blue-glow: rgba(74, 144, 226, 0.5);
+  
+  /* Text Colors */
+  --text-primary: #ffffff;
+  --text-secondary: #d4a5ff;
+  --text-accent: #ffd700;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--purple-bg);
+  color: var(--text-primary);
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
